@@ -1,6 +1,8 @@
-module Main where
+ module Main where
 
-import Lib
+import Control.Monad
+import Control.Applicative
+import NanoParsec
 
 main :: IO ()
-main = someFunc
+main = tryMiniLanguage
