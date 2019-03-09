@@ -24,6 +24,12 @@ dependencies:
 
 library:
   source-dirs: src
+  dependencies:
+  - containers
+  - haskeline
+  - mtl
+  - parsec
+  - pretty
 
 executables:
   WYAH-exe:
